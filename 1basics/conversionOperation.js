@@ -17,7 +17,7 @@ let isLoggedin = 0
 
 let booleanisLoggedin=Boolean(isLoggedin)// converting number into boolean
 
-console.log(booleanisLoggedin)
+// console.log(booleanisLoggedin)
 
 let string =""
 
