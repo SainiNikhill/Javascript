@@ -59,3 +59,9 @@ console.log(student.Name)
 student.age =student.age+1;
 // this is how we can modify objects data
 console.log(student.age)
+
+// functions 
+
+const myFunction=function(){
+    console.log("helloWorld")
+}
