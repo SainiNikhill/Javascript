@@ -75,10 +75,30 @@ console.log(marks)
  // delete count = o incase you dont want to delete any thing 
  // new element 
 
-   let spliceArray= [1,2,3,4,5,6,8]
+   let spliceArray= [1,2,3,4,5,6,6,6,6,8]
 
   spliceArray.splice(2,0,2,34,5) // here start index is 2 so these elemts (2,3,4,5) will be inserted from index 2 and since the del count is 0 no elememt is delted 
   console.log(spliceArray)
 
   spliceArray.splice(1,4,"nikhil")
   console.log(spliceArray)
+
+
+
+  
+
+  // .includes check whether the array include the value or not 
+  console.log(spliceArray.includes(9))
+
+
+
+  // .indexOf checks whether  the index of the value in array , in case it doesnt have this value in array simply return -1. 
+  console.log(spliceArray.indexOf(6))
+  console.log(spliceArray)
+
+
+
+// join() method converts array into string 
+  const newArr = myArr2.join()
+console.log(myArr2)
+console.log(newArr)
